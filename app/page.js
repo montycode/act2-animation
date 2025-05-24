@@ -13,6 +13,9 @@ export default function Home() {
           className="object-cover w-full h-full"
         />
         <button className="absolute top-4 left-4 text-white text-2xl">←</button>
+        <button className="absolute top-4 right-4 text-white text-2xl">
+          ...
+        </button>
       </div>
 
       {/* Tarjeta con imagen del artista */}
