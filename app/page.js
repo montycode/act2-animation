@@ -33,7 +33,7 @@ export default function Home() {
 
       {/* Controles */}
       <div className="flex items-center justify-between w-3/4 mt-6 text-xl text-gray-400">
-        <button className="botones"> 
+        <button>
           <object type="image/svg+xml" data={Boton1}></object>
         </button>
         <button>📤</button>
