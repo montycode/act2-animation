@@ -32,12 +32,14 @@ export default function Home() {
 
       {/* Controles */}
       <div className="flex items-center justify-between w-3/4 mt-6 text-xl text-gray-400">
+        <button>🔂</button>
+        <button>📤</button>
         <button className="botones">
           <object type="image/svg+xml" data="img/boton1.svg"></object>
         </button>
-        <button>📤</button>
-        <button>🔄</button>
-        <button>🔊</button>
+        <button className="botones">
+           <object type="image/svg+xml" data="img/boton2.svg"></object>
+        </button>
       </div>
 
       {/* Barra de progreso */}
