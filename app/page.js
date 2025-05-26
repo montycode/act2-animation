@@ -31,7 +31,7 @@ export default function Home() {
 
       {/* Controles */}
       <div className="flex items-center justify-between w-3/4 mt-6 text-xl text-gray-400">
-        <button className="boton1">
+        <button >
           <svg id="ebL1FDjHMJf1" xmlns="http://www.w3.org/2000/svg"
             xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 43.76 43"
             shape-rendering="geometricPrecision" text-rendering="geometricPrecision"
