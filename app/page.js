@@ -34,7 +34,7 @@ export default function Home() {
       {/* Controles */}
       <div className="flex items-center justify-between w-3/4 mt-6 text-xl text-gray-400">
         <button>
-        <Image src={ArtistImg}/>
+        <Image src={Boton1}/>
         </button>
         <button>📤</button>
         <button>🔄</button>
