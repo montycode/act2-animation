@@ -28,5 +28,5 @@ body {
 .boton1 {
   width: 3em;
   height: 3em;
-  background: url("/public/img/boton1.svg") center no-repeat;
+  background: url("/img/boton1.svg") center no-repeat;
 }
