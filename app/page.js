@@ -1,5 +1,6 @@
 import ArtistImg from "@/public/img/artist.jpg";
 import Cover from "@/public/img/concert-bg.jpg";
+import Boton1 from "@/public/img/boton1.svg";
 import Image from "next/image";
 
 
@@ -32,8 +33,8 @@ export default function Home() {
 
       {/* Controles */}
       <div className="flex items-center justify-between w-3/4 mt-6 text-xl text-gray-400">
-        <button>
-          <object type="image/svg+xml" data="img/boton1.svg"></object>
+        <button className="botones"> 
+          <object type="image/svg+xml" data={Boton1}></object>
         </button>
         <button>📤</button>
         <button>🔄</button>
