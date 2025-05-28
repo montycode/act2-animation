@@ -1,7 +1,8 @@
 import ArtistImg from "@/public/img/artist.jpg";
 import Cover from "@/public/img/concert-bg.jpg";
 import Image from "next/image";
-
+import RepeatButton from "@/public/img/repeat.svg";
+import VolButton from "@/public/img/speaker.svg";
 
 export default function Home() {
   return (
@@ -34,11 +35,19 @@ export default function Home() {
       <div className="flex items-center justify-between w-3/4 mt-6 text-xl text-gray-400">
         <button>🔂</button>
         <button>📤</button>
-        <button className="botones">
-          <object type="image/svg+xml" data="img/boton1.svg"></object>
+        <button>
+          <Image
+            src={RepeatButton}
+            alt="Shift Mode"
+            className="w-[45px] h-[45px]"
+          />
         </button>
-        <button className="botones">
-           <object type="image/svg+xml" data="img/boton2.svg"></object>
+        <button>
+          <Image
+            src={VolButton}
+            alt="Volumen Control"
+            className="w-[45px] h-[45px]"
+          />
         </button>
       </div>
 
