@@ -74,9 +74,9 @@ http://localhost:3000
 └── img/
 └── iconos SVG animados generados con SVGator
 
-/app (o /pages)
-├── index.tsx // Página de inicio
-└── 404.tsx // Página de error personalizada
+/app
+├── page.js // Página de inicio
+└── 404.js // Página de error personalizada
 
 /tailwind.config.js
 /README.md
