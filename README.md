@@ -1,36 +1,106 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Actividad Grupal: SVG Animados
 
-## Getting Started
+## 🎯 Objetivos de la actividad
 
-First, run the development server:
+- Conocer el proceso para animar un SVG.
+- Emplear SVG animados en una interfaz web.
+
+---
+
+## 🛠️ Tecnologías utilizadas
+
+- [Next.js](https://nextjs.org/) – Framework React para renderizado y rutas.
+- [Tailwind CSS](https://tailwindcss.com/) – Framework de estilos utilitario.
+- [SVGator](https://www.svgator.com/) – Herramienta para crear animaciones SVG sin código.
+- [Netlify](https://www.netlify.com/) – Plataforma usada para desplegar el sitio web.
+- [GitHub](https://github.com/) – Control de versiones y trabajo colaborativo.
+
+---
+
+## 🧩 Descripción del proyecto
+
+Este proyecto consiste en el desarrollo de una **página de inicio** y una **página de error 404**, cumpliendo con los siguientes requisitos:
+
+- Diseño de la interfaz gráfica por el equipo.
+- Uso de al menos **cinco íconos animados** mediante **SVGator** (ej: redes sociales, botones, contacto, etc.).
+- Una **página de error 404 personalizada** con un **SVG animado como elemento central**.
+- Implementación utilizando Next.js + Tailwind CSS para la estructura y estilos.
+
+---
+
+## 🌐 Sitio desplegado
+
+Puedes ver el proyecto en línea desde este enlace:
+
+🔗 **[https://act2-animation.netlify.app/](https://act2-animation.netlify.app/)**
+
+---
+
+## 🚀 Instrucciones para correr el proyecto localmente
+
+### 1. Clona el repositorio
+
+```bash
+git clone https://github.com/montycode/act2-animation.git
+cd act2-animation
+```
+
+### 2. Instala las dependencias
+
+```bash
+npm install
+```
+
+### 3. Ejecuta el servidor de desarrollo
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 4. Abre tu navegador
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Abre tu navegador y visita:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```plaintext
+http://localhost:3000
+```
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 📁 Estructura de archivos
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```plaintext
+/public
+└── img/
+└── iconos SVG animados generados con SVGator
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+/app (o /pages)
+├── index.tsx // Página de inicio
+└── 404.tsx // Página de error personalizada
 
-## Deploy on Vercel
+/tailwind.config.js
+/README.md
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Entrega
+
+Se entregará un archivo .zip que incluye toda la carpeta del proyecto con:
+
+Archivos .svg, .tsx, .css, .json
+
+Estructura completa de desarrollo
+
+Este README.md para guiar al profesor en la ejecución y visualización del proyecto.
+
+---
+
+## ✨ Créditos
+
+Desarrollado en equipo como parte de la actividad escolar grupal de SVG Animados.
+
+- [@Cabrera9806](https://github.com/Cabrera9806) – José Carlos Cabrera Mosqueda
+- [@cquezada123](https://github.com/cquezada123) – Carlos Quezada Solórzano
+- [@crisifur19](https://github.com/crisifur19) – Cristian Alan Carranza Alcantar
+- [@montycode](https://github.com/montycode) – Omar Alfredo Montoya Robledo
