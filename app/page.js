@@ -1,8 +1,6 @@
 import ArtistImg from "@/public/img/artist.jpg";
 import Cover from "@/public/img/concert-bg.jpg";
 import Image from "next/image";
-import RepeatButton from "@/public/img/repeat.svg";
-import VolButton from "@/public/img/speaker.svg";
 
 export default function Home() {
   return (
@@ -36,18 +34,22 @@ export default function Home() {
         <button>🔂</button>
         <button>📤</button>
         <button>
-          <Image
-            src={RepeatButton}
-            alt="Shift Mode"
+          <object
+            type="image/svg+xml"
+            data="/img/repeat.svg"
             className="w-[45px] h-[45px]"
-          />
+          >
+            Tu navegador no soporta SVG embebido.
+          </object>
         </button>
         <button>
-          <Image
-            src={VolButton}
-            alt="Volumen Control"
+          <object
+            type="image/svg+xml"
+            data="/img/speaker.svg"
             className="w-[45px] h-[45px]"
-          />
+          >
+            Tu navegador no soporta SVG embebido.
+          </object>
         </button>
       </div>
 
