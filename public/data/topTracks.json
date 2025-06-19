@@ -1,0 +1,30 @@
+[
+  {
+    "id": "1",
+    "title": "Fluorescent Adolescent",
+    "artist": "Arctic Monkeys",
+    "audioSrc": "/music/fluorescent-adolescent.mp3",
+    "album": "Favourite Worst Nightmare",
+    "year": 2007,
+    "genre": "Indie Rock",
+    "duration": "3:02",
+    "explicit": false,
+    "cover": "/img/fluorescent-adolescent.jpg",
+    "lyrics": "/lyrics/fluorescent-adolescent.txt",
+    "artistInfo": "Arctic Monkeys es una banda británica formada en Sheffield en 2002. Su estilo mezcla indie rock, garage y post-punk revival."
+  },
+  {
+    "id": "2",
+    "title": "Arabella",
+    "artist": "Arctic Monkeys",
+    "audioSrc": "/music/arabella.mp3",
+    "album": "AM",
+    "year": 2013,
+    "genre": "Indie Rock",
+    "duration": "3:32",
+    "explicit": false,
+    "cover": "/img/arabella.jpg",
+    "lyrics": "/lyrics/arabella.txt",
+    "artistInfo": "Arctic Monkeys es una banda británica formada en Sheffield en 2002. Su estilo mezcla indie rock, garage y post-punk revival."
+  }
+]
