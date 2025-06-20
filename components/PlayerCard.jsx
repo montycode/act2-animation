@@ -99,8 +99,8 @@ export default function PlayerCard({ tracks = [] }) {
 
           <div
             className="fixed bottom-0 inset-x-0 z-20 
-                h-[calc(100vh-20vh)] 
-                sm:h-[calc(100vh-40vh)] 
+                h-[calc(100vh-15vh)] 
+                sm:h-[calc(100vh-30vh)] 
                 lg:h-[calc(100vh-25vh)]"
           >
             <Card className="h-full w-full border-none bg-gradient-to-b from-[#23002E]/90 to-[#001F3F]/95 backdrop-blur-md p-4 rounded-2xl overflow-y-scroll flex items-center justify-center">
