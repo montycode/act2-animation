@@ -97,8 +97,13 @@ export default function PlayerCard({ tracks = [] }) {
           </div>
           <ArtistInfo info={currentTrack.artistInfo} />
 
-          <div className="relative z-20 mt-30 sm:mt-52 w-full">
-            <Card className="w-full border-none bg-gradient-to-b from-[#23002E]/90 to-[#001F3F]/95 backdrop-blur-md p-4 rounded-2xl overflow-y-hidden flex items-center justify-center">
+          <div
+            className="fixed bottom-0 inset-x-0 z-20 
+                h-[calc(100vh-20vh)] 
+                sm:h-[calc(100vh-40vh)] 
+                lg:h-[calc(100vh-25vh)]"
+          >
+            <Card className="h-full w-full border-none bg-gradient-to-b from-[#23002E]/90 to-[#001F3F]/95 backdrop-blur-md p-4 rounded-2xl overflow-y-scroll flex items-center justify-center">
               <ArtistDetails
                 coverImage={currentTrack.cover}
                 songTitle={currentTrack.title}
