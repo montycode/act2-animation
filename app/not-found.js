@@ -46,7 +46,7 @@ export default function NotFound() {
               href="/"
               className="font-bold text-center bg-gradient-to-l from-indigo-500 to-purple-600  text-white border rounded-md py-4 px-8 w-full lg:w-auto focus:outline-none focus:ring-2 focus:ring-indigo-700 focus:ring-opacity-50 mt-6"
             >
-              Go to Homepage
+              Volver al Reproductor
             </Link>
           </div>
         </div>

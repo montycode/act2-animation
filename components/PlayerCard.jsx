@@ -6,6 +6,7 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import Cover from "@/public/img/concert-bg.jpg";
 import Image from "next/image";
+import Link from "next/link";
 import MediaControls from "./MediaControls";
 import MusicControls from "@/components/MusicControls";
 import ProgressBar from "@/components/ProgressBar";
@@ -91,9 +92,15 @@ export default function PlayerCard({ tracks = [] }) {
             className="object-cover z-0 opacity-30"
           />
           <div className="absolute top-4 left-4">
-            <Button variant="ghost" size="icon" className="text-white text-2xl">
-              ←
-            </Button>
+            <Link href="/test" passHref>
+              <Button
+                variant="ghost"
+                size="icon"
+                className="text-white text-2xl"
+              >
+                ←
+              </Button>
+            </Link>
           </div>
           <ArtistInfo info={currentTrack.artistInfo} />
 

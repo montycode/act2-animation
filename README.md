@@ -32,7 +32,9 @@ Este proyecto consiste en el desarrollo de una **página de inicio** y una **pá
 
 Puedes ver el proyecto en línea desde este enlace:
 
-🔗 **[https://act2-animation.netlify.app/](https://act2-animation.netlify.app/)**
+🔗 Sitio Web **[https://act2-animation.netlify.app/](https://act2-animation.netlify.app/)**
+
+❌ Error Page: **[https://act2-animation.netlify.app/test](https://act2-animation.netlify.app/test)**
 
 ---
 
@@ -100,7 +102,6 @@ Este README.md para guiar al profesor en la ejecución y visualización del proy
 
 Desarrollado en equipo como parte de la actividad escolar grupal de SVG Animados.
 
-- [@Cabrera9806](https://github.com/Cabrera9806) – José Carlos Cabrera Mosqueda
 - [@cquezada123](https://github.com/cquezada123) – Carlos Quezada Solórzano
 - [@crisifur19](https://github.com/crisifur19) – Cristian Alan Carranza Alcantar
 - [@montycode](https://github.com/montycode) – Omar Alfredo Montoya Robledo

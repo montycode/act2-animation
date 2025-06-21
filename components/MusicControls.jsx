@@ -1,5 +1,6 @@
 "use client";
 
+import { Pause, Play, SkipBack, SkipForward } from "lucide-react";
 import {
   Tooltip,
   TooltipContent,
@@ -49,7 +50,7 @@ export default function MusicControls({
                   size="icon"
                   className="w-16 h-16 rounded-full bg-gradient-to-r from-pink-500 to-purple-600 text-xl font-bold shadow-lg"
                 >
-                  {icon === "play" ? "▶️" : "⏸"}
+                  {icon === "play" ? <Play /> : <Pause />}
                 </Button>
               </motion.div>
             ) : (
@@ -59,7 +60,7 @@ export default function MusicControls({
                 size="icon"
                 className="text-white text-2xl"
               >
-                {icon === "prev" ? "⏮️" : "⏭️"}
+                {icon === "prev" ? <SkipBack /> : <SkipForward />}
               </Button>
             )}
           </TooltipTrigger>
