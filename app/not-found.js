@@ -6,19 +6,34 @@ export default function NotFound() {
     <div
       className="w-full h-full bg-cover bg-center"
       style={{
-        backgroundImage: "url('/img/404-bg.jpg')",
+        backgroundColor: "#020618",
       }}
     >
       <div className="flex justify-center items-center lg:py-0 h-full">
-        <div className="px-4 flex justify-center items-center text-gray-800 w-full">
-          <div className="sm:w-5/6 bg-white border rounded-md grid place-items-center my-8 py-8 px-4 md:px-24 lg:px-72">
-            <Image src="/img/404.png" alt="404" width={220} height={110} />
-            <h1 className="text-center font-bold text-gray-800 text-xl lg:text-2xl pt-12 lg:pt-8">
-              OOPS, PAGE NOT FOUND
+        <div className="px-4 flex justify-center items-center text-white-800 w-full">
+          <div className="sm:w-5/6 bg-transparent  grid place-items-center my-8 py-8 px-4 md:px-24 lg:px-72">
+            <object
+              type="image/svg+xml"
+              data={`/img/404.svg`}
+              className="w-[100%] h-[100%] cursor-pointer"
+            >
+              SVG no soportado.
+            </object>{" "}
+            <h1
+              className="text-center font-bold text-white-800 text-xl lg:text-2xl pt-12 lg:pt-8"
+              style={{
+                color: "#ffffff",
+              }}
+            >
+              ¡EL DIAAABLO!, NO HAY CANCIONES O DISCOS PARA VER AQUÍ
             </h1>
-            <p className="py-6 md:py-8 text-gray-800 text-center">
-              The page you are looking for might have been removed, has its name
-              changed, or is temporarily unavailable.
+            <p
+              className="py-6 md:py-8 text-gray-800 text-center"
+              style={{
+                color: "#ffffff",
+              }}
+            >
+              La página que estás buscando ya no está disponible o no existe.
             </p>
             <Link
               href="/"
