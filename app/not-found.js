@@ -25,7 +25,14 @@ export default function NotFound() {
                 color: "#ffffff",
               }}
             >
-              ¡EL DIAAABLO!, NO HAY CANCIONES O DISCOS PARA VER AQUÍ
+              <span
+                style={{
+                  fontSize: "40px",
+                }}
+              >
+                ¡EL DIAAABLO ESTO ES UN 404!{" "}
+              </span>
+              <br></br>NO HAY CANCIONES O DISCOS PARA VER AQUÍ
             </h1>
             <p
               className="py-6 md:py-8 text-gray-800 text-center"
